@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoadingView (Sample)</string>
+    <string name="loading">Loading all of the things!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="setLoadingTrueParent">setLoading(true) to parent LoadingView for 3 seconds</string>
+    <string name="setLoadingTrue">setLoading(true) is set :D</string>
+
+    <string name="email">E-Mail address</string>
+    <string name="password">Password</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signinin">Signing In...</string>
+</resources>
