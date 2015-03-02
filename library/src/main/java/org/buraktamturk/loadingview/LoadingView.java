@@ -61,7 +61,11 @@ public class LoadingView extends ViewSwitcher {
                 TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.LoadingView, 0, 0);
 
                 disloading = a.getBoolean(R.styleable.LoadingView_lv_loading, c.isLoading);
-                //setLoading(test);
+
+                int color = a.getColor(R.styleable.LoadingView_lv_color, c.textColor == null ? 0 : c.textColor);
+                if(color != 0) {
+                    ((TextView)loadingView.findViewById(R.id.LoadingView_text)).setTextColor(color);
+                }
 
                 String str = a.getString(R.styleable.LoadingView_lv_title);
                 if(str == null)

@@ -4,6 +4,7 @@
     <declare-styleable name="LoadingView">
         <attr name="lv_title" format="string" />
         <attr name="lv_loading" format="boolean" />
+        <attr name="lv_color" format="color" />
     </declare-styleable>
 
 

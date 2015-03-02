@@ -10,6 +10,7 @@ public class LoadingConfiguration {
     public int resourceStringId;
     public String loading;
     public boolean isLoading;
+    public Integer textColor;
 
     public LoadingConfiguration() {
         resourceStringId = drawable = -1;
@@ -27,6 +28,11 @@ public class LoadingConfiguration {
         return this;
     }
 
+    public LoadingConfiguration setTextColor(Integer color) {
+        textColor = color;
+        return this;
+    }
+
     public LoadingConfiguration setLoading(boolean loading) {
         isLoading = loading;
         return this;
@@ -39,8 +45,7 @@ public class LoadingConfiguration {
 
     public static LoadingConfiguration getDefault() {
         if(def == null) {
-            def = new LoadingConfiguration()
-                    .setLoadingText(R.string.LoadingView_loading);
+            def = new LoadingConfiguration();
         }
         return def;
     }
