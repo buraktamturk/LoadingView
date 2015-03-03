@@ -57,6 +57,13 @@ Defaults are used when no LoadingConfiguration is configured and no attr defined
         .setLoading(false) // you'll manually call setLoading(true) to LoadingView in order to show loading indicator.
         .setDefault() // make this configuration default
 
+Download
+--------
+
+```groovy
+compile 'org.buraktamturk:loadingview:1.0.0@aar'
+```
+
 # The MIT License (MIT)
 
 Copyright (c) 2015 Burak Tamtürk
