@@ -2,7 +2,7 @@
 
 LoadingView is easy to implement Loading indicators for your views or layouts. 
 
-##Screenshots
+## Screenshots
 ![Image](https://raw.githubusercontent.com/buraktamturk/LoadingView/master/screenshots/sample.gif)
 ![Image](https://raw.githubusercontent.com/buraktamturk/LoadingView/master/screenshots/sample2.gif)
 
